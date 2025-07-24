@@ -11,64 +11,6 @@ body {
   line-height: 1.6;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 50px;
-  background-color: #111;
-  position: fixed;
-  width: 100%;
-  z-index: 100;
-}
-
-.logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: red;
-}
-
-.nav-links {
-  display: flex;
-  list-style: none;
-  gap: 30px;
-}
-
-.nav-links a {
-  color: #ddd;
-  text-decoration: none;
-  font-size: 1rem;
-}
-
-.nav-links a:hover {
-  color: #fff;
-}
-
-.icons {
-  display: flex;
-  gap: 15px;
-  font-size: 1.2rem;
-}
-
-.icon-btn {
-  background-color: transparent;
-  border: none;
-  color: #fff;
-  font-size: 1.2rem;
-  cursor: pointer;
-  padding: 5px;
-  transition: color 0.3s;
-}
-
-.icon-btn:hover {
-  color: red;
-}
-
-.plans {
-  padding: 6rem 4rem 2rem;
-  text-align: center;
-}
-
 .plans h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
